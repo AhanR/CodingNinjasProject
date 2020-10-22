@@ -1,0 +1,99 @@
+body{
+    margin: 0px;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+b{
+    color: black;
+}
+
+.navBar{
+    margin: 0px;
+    width: 100vw;
+    height: 5vh;
+    text-align: left;
+    background-color: rgb(20, 20, 20);
+    color : whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5vh;
+}
+
+/*.picture{
+    height: 30vh;
+    width: 30vw;
+}*/
+
+.pictureBox{
+    position: absolute;
+    top : 8vh;
+    left: 55vw;
+    width: 40vw;
+    height: 70vh;
+    background-image: url('https://www.dailyhawker.com/wp-content/uploads/2018/11/dubai-street-food.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    alt : 'food';
+}
+
+.menuBox{
+    z-index: 1;
+    position: relative;
+    top : 0vh;
+    left : 5vh;
+    width: 40vw;
+    height: 70vh;
+}
+
+.heading{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size : 4vh;
+}
+
+.breadBasket,.honey,.eggs,.pancakes{
+    height: 5vh;
+}
+
+.breadBasketDescription,.honeyDescription,.eggsDescription,.pancakesDescription{
+    font-family: Arial, Helvetica, sans-serif;
+    color : #777;
+}
+
+.redthing1,.redthing2,.redthing3,.redthing4{
+    width : 5vw;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: red;
+    border-radius: 0.8vw;
+}
+
+.redthing1{
+    position: relative;
+    top : -6.2vh;
+    left : 22vh;
+}
+
+.redthing2{
+    position: relative;
+    top : -4.4vh;
+    left : 26.8vw;
+}
+
+.redthing3{
+    position: relative;
+    top : -4.4vh;
+    left : 12vw;
+}
+
+.redthing4{
+    position: relative;
+    top : -4.4vh;
+    left : 15.5vw;
+}
